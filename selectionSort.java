@@ -16,6 +16,10 @@ public class selectionSort {
          arr[i]=arr[min];
          arr[min]=temp;
         }
+        System.out.println("The sorted array is:");
+        for(int i=0;i<=n-1;i++){
+            System.out.print(arr[i]+" ");
+        }
         
     }
     public static void main(String[] args){
